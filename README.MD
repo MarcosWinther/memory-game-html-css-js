@@ -22,11 +22,11 @@ Jogo em um celular por exemplo:
 </div>
 <br>
 
-- Venha jogar acessando [aqui nesse link do GithubPages]()
+- Venha jogar acessando [aqui nesse link do GithubPages](https://marcoswinther.github.io/memory-game-html-css-js/)
 
 ## ⚙ Execução do Jogo
 1. **Clonar Repósitório:** basta utilizar o comando `git clone` para clonar esse projeto e salvar na máquina e depois executar o arquivo `index.html`.
-2. **GitHubPages:** pode também acessar o projeto nesse [link](), que abrirá esse projeto no GitHubPages, sem precisar baixar o repositório na sua máquina.
+2. **GitHubPages:** pode também acessar o projeto nesse [link](https://marcoswinther.github.io/memory-game-html-css-js/), que abrirá esse projeto no GitHubPages, sem precisar baixar o repositório na sua máquina.
 
 ## 🕹 Como jogar
 - Por se tratar de um Jogo da Memória, o objetivo é encontrar cada par de emojis.
