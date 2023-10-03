@@ -28,6 +28,12 @@ for (let i = 0; i < emojis.length; i++) {
   document.querySelector(".game").appendChild(box);
 }
 
+function playSound(nameAudio) {
+  let audio = new Audio(`./src/audios/${nameAudio}.m4a`);
+  audio.volume = 0.2;
+  audio.play();
+}
+
 function handleClick() {
   if (openCards.length < 2) {
     this.classList.add("boxOpen");
@@ -46,9 +52,11 @@ function checkMatch() {
   if(openCards[0].innerHTML === openCards[1].innerHTML) {
     openCards[0].classList.add('boxMatch');
     openCards[1].classList.add('boxMatch');
+    playSound('win');
   } else {
     openCards[0].classList.remove('boxOpen');
     openCards[1].classList.remove('boxOpen');
+    playSound('lose');
   }
 
   openCards = [];
